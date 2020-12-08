@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* nev */
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #228b22;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-items {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 5%;
+}
+.nav-item {
+  display: block;
+  font-size: 25px;
+}
+/* Conteiner */
+.conteiner {
+  width: 85%;
+  margin: auto;
+}
+
+/* Main */
+
+/* Welcome Section */
+.welcome-section {
+  width: 100%;
+  height: 660px;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+.welcome-section h1 {
+  padding-top: 17%;
+  font-size: 60px;
+}
+.welcome-section p {
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 30px;
+  color: #228b22;
+}
+
+/* Project Section */
+.project-section {
+  background-color: #228b22;
+}
+.project-section h2 {
+  padding-top: 5%;
+  font-size: 40px;
+}
+.project-items {
+  margin-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+.project-item img {
+  width: 400px;
+  height: 300px;
+}
+.project-item p {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 15px 5px;
+  text-align: center;
+  background-color: #006400;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #006400;
+  text-align: center;
+}
+.contact-section p {
+  font-style: italic;
+  font-weight: 200;
+  margin-bottom: 3%;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+.contact-link {
+  display: block;
+  font-size: 20px;
+  margin: 5px;
+}
+.contact-link i {
+  margin-right: 5px;
+}
